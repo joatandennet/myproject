@@ -9,7 +9,7 @@ class App extends React.Component {
     super(props);
 
     axios
-      .get('/comentarios/a')
+      .get('/postagens')
       .then(resultado => {
         console.log(resultado);
       }); 
